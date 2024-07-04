@@ -18,3 +18,26 @@
 .hidden {
     display: none !important;
 }
+
+#detail-payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.cus-detail{
+    margin: 0 30px;
+}
+.MuiPaper{
+    background-color: rgba(28, 170, 205, 0.464);
+
+}
+#card-content {
+
+    position: relative;
+    left: 85%;
+}
+
+

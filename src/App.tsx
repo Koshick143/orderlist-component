@@ -4,6 +4,7 @@ import DataGridDemo from './components/DataGridDemo';
 import DummyComponent from './components/DummyComponent';
 import { useTheme, useMediaQuery } from '@mui/material';
 import clsx from 'clsx';
+import LabTabs from './components/LabTabs';
 
 function App() {
   const theme = useTheme();
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div id='container'>
-      <div className={clsx({ hidden: isMobile })}>
+      {/* <div className={clsx({ hidden: isMobile })}>
         <DummyComponent />
       </div>
       <div id='div-2'>
@@ -22,7 +23,8 @@ function App() {
           <DummyComponent />
         </div>
         <DataGridDemo />
-      </div>
+      </div> */}
+      <LabTabs/>
     </div>
   );
 }
