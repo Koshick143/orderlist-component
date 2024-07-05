@@ -31,13 +31,17 @@
     margin: 0 30px;
 }
 .MuiPaper{
-    background-color: rgba(28, 170, 205, 0.464);
+    background-color: rgba(28, 170, 205, 0.168);
 
 }
 #card-content {
 
     position: relative;
     left: 85%;
+}
+#status-lower{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 

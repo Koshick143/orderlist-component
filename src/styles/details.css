@@ -1,0 +1,17 @@
+#detail-payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.cus-detail{
+    margin: 0 5%;
+}
+
+#card-content {
+
+    position: relative;
+    left: 85%;
+}

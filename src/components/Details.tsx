@@ -2,6 +2,8 @@ import React from 'react';
 import { Box, Grid, Typography, Card, CardContent, Divider, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
 import { data } from '../assets/adminData';
 
+import '../styles/details.css'
+
 import { MdDelete } from "react-icons/md";
 
 export default function Details() {
@@ -124,7 +126,7 @@ export default function Details() {
       </Box>
       <Box sx={{ marginTop: 2 }}>
      <div id='detail-sum'>
-        <Card sx={{ bgcolor:"rgba(28, 170, 205, 0.464)"}}>
+        <Card sx={{ bgcolor:"rgba(28, 170, 205, 0.168)"}}>
       <div id='card-content'>
             <CardContent>
 

@@ -1,0 +1,1 @@
+export const invoice = 'https://www.shutterstock.com/shutterstock/photos/1547555594/display_1500/stock-vector-minimal-corporate-invoice-template-design-1547555594.jpg'
